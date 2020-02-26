@@ -12,10 +12,33 @@ input {
 	color: white;
 }
 
+input[type=submit]{
+	width: 30%;
+	color: black;
+}
+
 input:focus {
 	width: 80%
 }
 
 h1 {
 	color: white;
+}
+
+label {
+	color: white;
+}
+
+@media only screen and (min-width: 480px) {
+	input {
+		width: 40%;
+		border:2px solid #ff0000; 
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	input {
+		width: 60%;
+		border:2px solid #ff0000;
+	}
 }
