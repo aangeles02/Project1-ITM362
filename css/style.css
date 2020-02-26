@@ -15,6 +15,7 @@ input {
 input[type=submit]{
 	width: 30%;
 	color: black;
+	font-weight: 900;
 }
 
 input:focus {
@@ -34,6 +35,7 @@ label {
 		width: 40%;
 		border:2px solid #ff0000; 
 	}
+	
 }
 
 @media only screen and (min-width: 992px) {
@@ -41,4 +43,5 @@ label {
 		width: 60%;
 		border:2px solid #ff0000;
 	}
+	
 }
